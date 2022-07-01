@@ -185,6 +185,7 @@ h3{
 #about img{
     height: auto;
     width: 400px;
+    border-radius: 15pt;
 }
 #about-text{
     width: 550px;
