@@ -122,18 +122,19 @@ nav ul li a:hover{
 }
 #content{
     position:absolute;
-    top: 50%;
-    left: 20%;
+    top: 30%;
+    right: 10%;
     transform: translate(-50%);
 }
-h1{
-    background: -webkit-linear-gradient(#F85032,#F16F5C,#F6290C,#F02F17,#E73827);
-    background-clip: text;
-    -webkit-background-clip:text;
+h1 {
+    -webkit-background-clip: text;
+    background-image: linear-gradient(to right, #1de9b6, #2979ff);
     -webkit-text-fill-color: transparent;
-    margin: 20px 0px 20px;
-    font-size: 40px ;
-}
+    color: #464646;
+    display: inline-block;
+    padding: 0;
+    margin: 0;
+  }
 h3{
     background: -webkit-linear-gradient(45deg, #ff0000 0%, #ffff00 16.67%, #00ff00 33.33%, #00ffff 50%, #0000ff 66.67%, #ff00ff 83.33%, #ff0000 100%);
     background-clip: text;
